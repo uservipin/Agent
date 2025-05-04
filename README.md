@@ -18,3 +18,34 @@ A multifunctional, agentic AI robot built to interact with humans in natural, in
 📱 **Mobile App Control** – Android app for remote task execution and robot control
 
 🧩 **Modular Design** – Easily extendable with additional skills or hardware
+
+
+Current Architecture
+
+AgenticAIApp/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/yourdomain/agenticaiapp/
+│   │   │   │   ├── ui/
+│   │   │   │   ├── viewmodel/
+│   │   │   │   ├── repository/
+│   │   │   │   ├── network/
+│   │   │   │   ├── model/
+│   │   │   │   └── utils/
+│   │   │   └── res/
+│   │   │       ├── layout/
+│   │   │       ├── values/
+│   │   │       └── drawable/
+├── backend/
+│   ├── api/
+│   ├── models/
+│   ├── services/
+│   └── utils/
+├── automation_engine/
+│   ├── scheduler/
+│   ├── integrations/
+│   └── monitoring/
+├── docs/
+├── tests/
+└── README.md
