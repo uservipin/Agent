@@ -20,9 +20,3 @@ A multifunctional, agentic AI robot built to interact with humans in natural, in
 🧩 **Modular Design** – Easily extendable with additional skills or hardware
 
 
-│
-├── docs/
-│
-├── tests/
-│
-└── README.md
